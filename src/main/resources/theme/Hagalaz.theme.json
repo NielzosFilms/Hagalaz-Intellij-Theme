@@ -1,0 +1,373 @@
+{
+  "name": "Hagalaz",
+  "dark": true,
+  "author": "niels",
+  "editorScheme": "/theme/Hagalaz.xml",
+
+  "colors": {
+    "hagalazBg": "#0a0807",
+    "hagalazBgDarker": "#040302",
+    "hagalazBgDark": "#070605",
+    "hagalazSoot": "#14100e",
+    "hagalazIron": "#2e2724",
+    "hagalazMuted": "#6b635c",
+    "hagalazBone": "#d5cbbb",
+    "hagalazFgDark": "#867d73",
+    "hagalazFgLight": "#e3dacb",
+    "hagalazFgBright": "#efe8dc",
+    "hagalazAccent": "#c1121f",
+    "hagalazAccentTail": "#5a0d10",
+    "hagalazAccentMuted": "#b8323a"
+  },
+
+  "ui": {
+    "*": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone",
+      "borderColor": "hagalazIron",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "selectionInactiveBackground": "hagalazIron",
+      "selectionInactiveForeground": "hagalazBone",
+      "disabledForeground": "hagalazMuted",
+      "infoForeground": "hagalazFgDark",
+      "errorForeground": "hagalazAccentMuted",
+      "acronymForeground": "hagalazAccent",
+      "lineSeparatorColor": "hagalazIron",
+      "focusColor": "hagalazAccent",
+      "focusBorderColor": "hagalazAccent"
+    },
+
+    "Component": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone",
+      "borderColor": "hagalazIron",
+      "focusedBorderColor": "hagalazAccent",
+      "disabledBorderColor": "hagalazIron",
+      "errorFocusColor": "hagalazAccent",
+      "infoForeground": "hagalazFgDark"
+    },
+
+    "Panel": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone"
+    },
+
+    "Label": {
+      "foreground": "hagalazBone",
+      "disabledForeground": "hagalazMuted",
+      "selectedForeground": "hagalazFgBright"
+    },
+
+    "Link": {
+      "activeForeground": "hagalazAccent",
+      "hoverForeground": "hagalazFgBright",
+      "pressedForeground": "hagalazAccentTail",
+      "visitedForeground": "hagalazAccentMuted"
+    },
+
+    "Button": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "startBackground": "hagalazSoot",
+      "endBackground": "hagalazSoot",
+      "focusedBorderColor": "hagalazAccent",
+      "disabledText": "hagalazMuted",
+      "default": {
+        "startBackground": "hagalazAccent",
+        "endBackground": "hagalazAccent",
+        "foreground": "hagalazFgBright",
+        "focusedBorderColor": "hagalazAccent",
+        "focusColor": "hagalazAccent"
+      }
+    },
+
+    "CheckBox": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone",
+      "select": "hagalazAccent"
+    },
+
+    "RadioButton": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone",
+      "select": "hagalazAccent"
+    },
+
+    "ComboBox": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "nonEditableBackground": "hagalazSoot",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "ArrowButton.background": "hagalazSoot",
+      "ArrowButton.foreground": "hagalazMuted"
+    },
+
+    "TextField": {
+      "background": "hagalazBgDark",
+      "foreground": "hagalazBone",
+      "caretForeground": "hagalazAccent",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "borderColor": "hagalazIron",
+      "focusedBorderColor": "hagalazAccent"
+    },
+
+    "TextArea": {
+      "background": "hagalazBgDark",
+      "foreground": "hagalazBone",
+      "caretForeground": "hagalazAccent",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright"
+    },
+
+    "PasswordField": {
+      "background": "hagalazBgDark",
+      "foreground": "hagalazBone",
+      "caretForeground": "hagalazAccent"
+    },
+
+    "ProgressBar": {
+      "progressColor": "hagalazAccent",
+      "indeterminateStartColor": "hagalazAccentTail",
+      "indeterminateEndColor": "hagalazAccent",
+      "trackColor": "hagalazIron",
+      "failedColor": "hagalazAccentMuted",
+      "failedEndColor": "hagalazAccentTail"
+    },
+
+    "ToolTip": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "borderColor": "hagalazIron"
+    },
+
+    "Separator": {
+      "separatorColor": "hagalazIron",
+      "foreground": "hagalazMuted"
+    },
+
+    "ScrollBar": {
+      "Mac": {
+        "thumbColor": "hagalazIron",
+        "thumbBorderColor": "hagalazIron",
+        "hoverThumbColor": "hagalazAccentMuted",
+        "hoverThumbBorderColor": "hagalazAccentMuted",
+        "trackColor": "hagalazBg"
+      },
+      "thumbColor": "hagalazIron",
+      "hoverThumbColor": "hagalazAccentMuted",
+      "trackColor": "hagalazBg"
+    },
+
+    "Menu": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "borderColor": "hagalazIron",
+      "separatorColor": "hagalazIron",
+      "acceleratorForeground": "hagalazMuted"
+    },
+
+    "MenuItem": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "disabledForeground": "hagalazMuted",
+      "acceleratorForeground": "hagalazMuted"
+    },
+
+    "MenuBar": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "borderColor": "hagalazIron",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright"
+    },
+
+    "PopupMenu": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "borderColor": "hagalazIron",
+      "translucentBackground": "hagalazSoot"
+    },
+
+    "CompletionPopup": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "matchForeground": "hagalazAccent",
+      "infoForeground": "hagalazMuted",
+      "grayedForeground": "hagalazMuted"
+    },
+
+    "SearchEverywhere": {
+      "background": "hagalazBg",
+      "Header.background": "hagalazSoot",
+      "SearchField.background": "hagalazBgDark",
+      "SearchField.borderColor": "hagalazIron",
+      "List.selectionBackground": "hagalazAccent",
+      "Tab.selectedBackground": "hagalazIron",
+      "Tab.selectedForeground": "hagalazFgBright"
+    },
+
+    "SearchField": {
+      "background": "hagalazBgDark",
+      "borderColor": "hagalazIron"
+    },
+
+    "List": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "selectionInactiveBackground": "hagalazIron",
+      "selectionInactiveForeground": "hagalazBone"
+    },
+
+    "Tree": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "selectionInactiveBackground": "hagalazIron",
+      "selectionInactiveForeground": "hagalazBone",
+      "hash": "hagalazIron",
+      "modifiedItemForeground": "hagalazAccentMuted"
+    },
+
+    "Table": {
+      "background": "hagalazBg",
+      "foreground": "hagalazBone",
+      "gridColor": "hagalazIron",
+      "selectionBackground": "hagalazAccent",
+      "selectionForeground": "hagalazFgBright",
+      "selectionInactiveBackground": "hagalazIron",
+      "sortIconColor": "hagalazAccent",
+      "lightSelectionBackground": "hagalazIron"
+    },
+
+    "TableHeader": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "separatorColor": "hagalazIron",
+      "bottomSeparatorColor": "hagalazIron"
+    },
+
+    "TabbedPane": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "underlineColor": "hagalazAccent",
+      "disabledUnderlineColor": "hagalazIron",
+      "hoverColor": "hagalazIron",
+      "focusColor": "hagalazIron",
+      "selectedTabTitleNormalColor": "hagalazFgBright"
+    },
+
+    "EditorTabs": {
+      "background": "hagalazSoot",
+      "underlineColor": "hagalazAccent",
+      "underlineHeight": 2,
+      "underlinedTabBackground": "hagalazBg",
+      "inactiveUnderlineColor": "hagalazIron",
+      "hoverBackground": "hagalazIron",
+      "hoverMaskColor": "hagalazIron",
+      "modifiedIconColor": "hagalazAccentMuted"
+    },
+
+    "ToolWindow": {
+      "background": "hagalazBg",
+      "Header": {
+        "background": "hagalazSoot",
+        "inactiveBackground": "hagalazSoot",
+        "borderColor": "hagalazIron",
+        "inactiveBorderColor": "hagalazIron"
+      },
+      "HeaderTab": {
+        "selectedBackground": "hagalazIron",
+        "selectedInactiveBackground": "hagalazIron",
+        "hoverBackground": "hagalazIron",
+        "underlinedTabForeground": "hagalazFgBright",
+        "underlineTabColor": "hagalazAccent"
+      },
+      "Button": {
+        "selectedBackground": "hagalazIron",
+        "hoverBackground": "hagalazIron"
+      }
+    },
+
+    "StatusBar": {
+      "background": "hagalazSoot",
+      "borderColor": "hagalazIron",
+      "hoverBackground": "hagalazIron",
+      "widgetHoverBackground": "hagalazIron"
+    },
+
+    "Notification": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "borderColor": "hagalazIron",
+      "ToolWindow": {
+        "informativeBackground": "hagalazIron",
+        "informativeForeground": "hagalazBone",
+        "errorBackground": "hagalazAccentTail",
+        "errorForeground": "hagalazFgBright",
+        "warningBackground": "hagalazAccentMuted",
+        "warningForeground": "hagalazFgBright"
+      }
+    },
+
+    "Tag": {
+      "background": "hagalazIron",
+      "foreground": "hagalazBone"
+    },
+
+    "ValidationTooltip": {
+      "errorBackground": "hagalazAccentTail",
+      "errorBorderColor": "hagalazAccent",
+      "warningBackground": "hagalazAccentMuted",
+      "warningBorderColor": "hagalazAccentMuted"
+    },
+
+    "Counter": {
+      "background": "hagalazAccent",
+      "foreground": "hagalazFgBright"
+    },
+
+    "Badge": {
+      "background": "hagalazAccent",
+      "foreground": "hagalazFgBright"
+    },
+
+    "Git.Log.Commit.Reference.Foreground": "hagalazFgLight",
+
+    "Plugins": {
+      "background": "hagalazBg",
+      "SearchField.background": "hagalazBgDark",
+      "Button.installBackground": "hagalazAccent",
+      "Button.installForeground": "hagalazFgBright",
+      "Button.installFillForeground": "hagalazFgBright"
+    },
+
+    "WelcomeScreen": {
+      "background": "hagalazBg",
+      "Details.background": "hagalazBgDark",
+      "SidePanel.background": "hagalazSoot"
+    },
+
+    "MainToolbar": {
+      "background": "hagalazSoot",
+      "Dropdown.hoverBackground": "hagalazIron",
+      "Dropdown.pressedBackground": "hagalazIron"
+    },
+
+    "Borders": {
+      "color": "hagalazIron",
+      "ContrastBorderColor": "hagalazIron"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<idea-plugin>
+    <id>com.hagalaz.theme</id>
+    <name>Hagalaz</name>
+    <vendor email="you@example.com" url="https://github.com/yourname">niels</vendor>
+    <version>1.0.0</version>
+
+    <description><![CDATA[
+        <p><b>Hagalaz</b> — a dark fantasy / evil-castle UI theme for JetBrains IDEs.</p>
+        <p>Ash-black, bone, iron, and blood red. Torches flicker, embers drift, crows
+        circle a black eclipse over a castle-cathedral. Ported from the Hagalaz
+        Omarchy / Hyprland desktop theme.</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <p>1.0.0 — Initial release. Full UI theme + bundled editor color scheme.</p>
+    ]]></change-notes>
+
+    <!-- 233 = 2023.3; adjust if you need to support older IDEs -->
+    <idea-version since-build="233"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="Hagalaz" path="/theme/Hagalaz.theme.json"/>
+    </extensions>
+</idea-plugin>

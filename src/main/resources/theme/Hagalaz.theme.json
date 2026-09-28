@@ -220,6 +220,18 @@
       "borderColor": "hagalazIron"
     },
 
+    "SearchMatch": {
+      "startBackground": "hagalazAccentTail",
+      "endBackground": "hagalazAccentTail",
+      "foreground": "hagalazBone"
+    },
+    "SpeedSearch": {
+      "background": "hagalazSoot",
+      "foreground": "hagalazBone",
+      "borderColor": "hagalazIron",
+      "errorForeground": "hagalazAccentMuted"
+    },
+
     "List": {
       "background": "hagalazBg",
       "foreground": "hagalazBone",

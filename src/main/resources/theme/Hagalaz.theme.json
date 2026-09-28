@@ -248,7 +248,8 @@
       "selectionForeground": "hagalazFgBright",
       "selectionInactiveBackground": "hagalazIron",
       "sortIconColor": "hagalazAccent",
-      "lightSelectionBackground": "hagalazIron"
+      "lightSelectionBackground": "hagalazIron",
+      "stripeColor": "hagalazBg"
     },
 
     "TableHeader": {
@@ -343,7 +344,34 @@
       "foreground": "hagalazFgBright"
     },
 
-    "Git.Log.Commit.Reference.Foreground": "hagalazFgLight",
+    "VersionControl": {
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "hagalazSoot",
+          "hoveredBackground": "hagalazIron",
+          "unmatchedForeground": "hagalazMuted",
+          "Reference": {
+            "foreground": "hagalazFgLight"
+          }
+        }
+      },
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "hagalazIron"
+        }
+      },
+      "RefLabel": {
+        "backgroundBase": "hagalazIron",
+        "foreground": "hagalazFgLight"
+      },
+      "GitLog": {
+        "headIconColor": "hagalazAccent",
+        "localBranchIconColor": "hagalazAccentMuted",
+        "remoteBranchIconColor": "hagalazFgDark",
+        "tagIconColor": "hagalazMuted",
+        "otherIconColor": "hagalazMuted"
+      }
+    },
 
     "Plugins": {
       "background": "hagalazBg",
